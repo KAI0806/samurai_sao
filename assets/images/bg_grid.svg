@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="204" height="193" viewBox="0 0 204 193">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_1221" data-name="長方形 1221" width="204" height="193" transform="translate(-8770 743)" fill="none" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="マスクグループ_11" data-name="マスクグループ 11" transform="translate(8770 -743)" opacity="0.1" clip-path="url(#clip-path)">
+    <g id="グループ_9071" data-name="グループ 9071" transform="translate(-8773.979 739.021)">
+      <circle id="楕円形_2" data-name="楕円形 2" cx="4" cy="4" r="4" transform="translate(101.979 95.979)" fill="#fff"/>
+      <circle id="楕円形_8" data-name="楕円形 8" cx="4" cy="4" r="4" transform="translate(203.979 -0.021)" fill="#fff"/>
+      <circle id="楕円形_9" data-name="楕円形 9" cx="4" cy="4" r="4" transform="translate(-0.021 -0.021)" fill="#fff"/>
+      <circle id="楕円形_10" data-name="楕円形 10" cx="4" cy="4" r="4" transform="translate(101.979 -0.021)" fill="#fff"/>
+      <circle id="楕円形_5" data-name="楕円形 5" cx="4" cy="4" r="4" transform="translate(-0.021 192.979)" fill="#fff"/>
+      <circle id="楕円形_7" data-name="楕円形 7" cx="4" cy="4" r="4" transform="translate(101.979 192.979)" fill="#fff"/>
+      <circle id="楕円形_6" data-name="楕円形 6" cx="4" cy="4" r="4" transform="translate(203.979 192.979)" fill="#fff"/>
+      <circle id="楕円形_4" data-name="楕円形 4" cx="4" cy="4" r="4" transform="translate(203.979 95.979)" fill="#fff"/>
+      <circle id="楕円形_3" data-name="楕円形 3" cx="4" cy="4" r="4" transform="translate(-0.021 95.979)" fill="#fff"/>
+      <path id="パス_1" data-name="パス 1" d="M-8408,744l.08,192.174" transform="translate(8513.935 -739.736)" fill="none" stroke="#fff" stroke-width="2"/>
+      <path id="パス_3" data-name="パス 3" d="M-8408,744l.08,192.174" transform="translate(8412.262 -739.736)" fill="none" stroke="#fff" stroke-width="2"/>
+      <path id="パス_4" data-name="パス 4" d="M0,0,.081,203.268" transform="translate(207.529 4.182) rotate(90)" fill="none" stroke="#fff" stroke-width="2"/>
+      <path id="パス_5" data-name="パス 5" d="M0,0,.081,203.268" transform="translate(207.689 100.127) rotate(90)" fill="none" stroke="#fff" stroke-width="2"/>
+      <path id="パス_6" data-name="パス 6" d="M0,0,.081,203.268" transform="translate(207.569 196.357) rotate(90)" fill="none" stroke="#fff" stroke-width="2"/>
+      <path id="パス_2" data-name="パス 2" d="M-8408,744l.08,192.174" transform="translate(8615.608 -739.736)" fill="none" stroke="#fff" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
