@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>サムライエナジー×SAOコラボ</title>
 
+    <link rel="stylesheet" href="/assets/css/aos.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+
     <script>
         (function(d) {
           var config = {
@@ -17,6 +19,8 @@
           h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
         })(document);
     </script>
+    <script src="/assets/js/aos.js"></script>
+
 </head>
 <body>
     <header>
@@ -26,17 +30,17 @@
         <section id="mv">
             <div class="wrap">
                 <div class="bg">
-                    <img src="/assets/images/mv_bg.webp" alt="samurai energy × sword art online">
+                    <img data-aos="zoom-in" src="/assets/images/mv_bg.webp" alt="samurai energy × sword art online">
                 </div>
 
                 <div class="txt">
-                    <h1><img src="/assets/images/mv_txt.webp" alt="サムライエナジー SAOコラボ"></h1>
+                    <h1 data-aos="fade-up" data-aos-delay="500"><img src="/assets/images/mv_txt.webp" alt="サムライエナジー SAOコラボ"></h1>
                 </div>
             </div>
         </section>
 
         <section id="release">
-            <h2 class="mintyo"><small>2022年</small>12<small>月</small>販売開始</h2>
+            <h2 data-aos="fade-up" class="mintyo"><small>2022年</small>12<small>月</small>販売開始</h2>
 
             <p>
                 カロリー、糖質、脂質0の国産エナジードリンク「SAMURAI ENERGY」と「ソードアート・オンライン」のコラボ缶が<br/>
@@ -50,16 +54,16 @@
             </p>
 
             <ul class="products">
-                <li>
+                <li data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                     <img src="/assets/images/product01.webp" alt="コラボ缶1">
                 </li>
-                <li>
+                <li data-aos="fade-up" data-aos-delay="500" data-aos-anchor-placement="center-bottom">
                     <img src="/assets/images/product02.webp" alt="コラボ缶2">
                 </li>
-                <li>
+                <li data-aos="fade-up" data-aos-delay="1000" data-aos-anchor-placement="center-bottom">
                     <img src="/assets/images/product03.webp" alt="コラボ缶3">
                 </li>
-                <li>
+                <li data-aos="fade-up" data-aos-delay="1500" data-aos-anchor-placement="center-bottom">
                     <img src="/assets/images/product04.webp" alt="コラボ缶4">
                 </li>
             </ul>
@@ -132,5 +136,13 @@
         <p class="copy">©2020 川原 礎/KADOKAWA/SAO-P Project</p>
     </main>
     <footer></footer>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            offset: 50,
+        });
+        
+    </script>
 </body>
 </html>
