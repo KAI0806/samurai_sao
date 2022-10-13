@@ -81,6 +81,7 @@ header, footer{
 
 main{
     position: relative;
+    overflow-x: hidden;
     background: url('../images/bg_grid.svg') repeat center center/20rem;
 }
 
@@ -131,7 +132,6 @@ main::after{
 #mv .wrap{
     position: relative;
     width: 75%;
-    min-width: 1280px;
 }
 
 #mv .wrap .bg, #mv .wrap .bg img{
@@ -153,7 +153,6 @@ main::after{
 #release{
     width: 66.66%;
     margin: auto;
-    min-width: 1280px;
 }
 
 #release h2{
@@ -217,13 +216,13 @@ main::after{
 .spinner div {
     display: inline-block;
     margin: -5rem auto 0;
-    animation: spin 1s steps(12, end) infinite;
+    /* animation: spin 1s steps(12, end) infinite; */
 }
 
-@keyframes spin {
+/* @keyframes spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+} */
 
 #release .campaign .wrap p{
     font-size: 1.4rem;
@@ -287,4 +286,179 @@ main::after{
     font-size: 2.4rem;
     text-align: center;
     padding-bottom: 4.8rem;
+}
+
+@media screen and (max-width: 767px){
+    html{
+        font-size: 2.667vw;
+    }
+
+    p{
+        font-size: 1.4rem;
+    }
+
+    .pc_only{
+        display: none !important;
+    }
+    
+    .sp_only{
+        display: block;
+    }
+
+    .pc_flex{
+        display: none !important;
+    }
+
+    .sp_flex{
+        display: flex;
+    }
+
+    .pc_inline{
+        display: none;
+    }
+
+    .sp_inline{
+        display: inline;
+    }
+
+    /* header */
+    header, footer{
+        height: 1.6rem;
+    }
+
+    /* main */
+    #mv{
+        width: 100%;
+        margin-bottom: 1.8rem;
+    }
+
+    main::before{
+        width: 30.6rem;
+        height: 22.6rem;
+        top: 19.5%;
+    }
+
+    main::after{
+        width: 30.6rem;
+        height: 22.6rem;
+        bottom: 19%;
+    }
+
+    #mv .wrap{
+        width: 100%;
+    }
+
+    #mv .wrap .txt{
+        width: 62%;
+        top: 50%;
+        bottom: unset;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #release{
+        width: 85.33%;
+    }
+
+    #release h2{
+        font-size: 4.3rem;
+        line-height: 1.5;
+        text-align: left;
+        position: relative;
+        margin-bottom: 3.2rem;
+    }
+
+    #release h2::before{
+        position: absolute;
+        content: '';
+        width: 9rem;
+        height: .1rem;
+        bottom: 3rem;
+        left: 0;
+        background: #FCF004;
+    }
+
+    #release h2 small{
+        font-size: 4rem;
+    }
+
+    #release > p{
+        text-align: left;
+        line-height: 1.7;
+    }
+
+    #release > p+p{
+        margin-top: 1.4rem;
+    }
+
+    #release .products{
+        margin-top: 3.2rem;
+        margin-bottom: 3.6rem;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #release .products li{
+        width: 45%;
+    }
+
+    #release .products li:first-child,
+    #release .products li:nth-child(2){
+        margin-bottom: 3.2rem;
+    }
+
+    #release .products img{
+        width: 100%;
+    }
+
+    #release .campaign h3{
+        font-size: 2rem;
+        line-height: 1.5;
+        padding: 1.8rem 2.4rem;
+        margin-bottom: 2.2rem;
+        background: url('../images/cp_title01_sp.svg') no-repeat center center/100%;
+    }
+
+    #release .campaign h3::before{
+        width: 27.26rem;
+        height: 1rem;
+        bottom: -2rem;
+        left: 0;
+        background: url('../images/tltle_under01_sp.svg') no-repeat center center/100%;
+    }
+
+    #release .campaign:nth-child(6){
+        margin-top: 3.6rem;
+    }
+
+    #release .campaign:nth-child(6) h3{
+        background: url('../images/cp_title02_sp.svg') no-repeat center center/100%;
+    }
+    
+    #release .campaign:nth-child(6) h3::before{
+        background: url('../images/tltle_under02_sp.svg') no-repeat center center/100%;
+    }
+
+    #sns{
+        width: 85.33%;
+        flex-wrap: wrap;
+        margin: 4.8rem auto 4rem;
+    }
+
+    #sns div{
+        width: 90%;
+    }
+
+    #sns div:first-child{
+        margin-right: 0;
+        margin-bottom: 3.6rem;
+    }
+
+    #sns div p{
+        font-size: 2rem;
+    }
+
+    .copy{
+        font-size: 1.4rem;
+    }
 }
